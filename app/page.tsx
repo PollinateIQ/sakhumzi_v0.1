@@ -176,11 +176,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Reservation Section */}
+      
+      {/* Reservation Section - Updated */}
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-8 text-sakhumzi-black animate-slideIn">Make a Reservation</h2>
+          <h2 className="text-3xl font-bold text-center mb-4 text-sakhumzi-black animate-slideIn">Reserve Your Table</h2>
+          <p className="text-center text-sakhumzi-gray mb-8 max-w-2xl mx-auto">Experience the flavors of Soweto at Sakhumzi Restaurant. Book your table now and embark on a culinary journey through South African traditions.</p>
           <ReservationForm />
         </div>
       </section>

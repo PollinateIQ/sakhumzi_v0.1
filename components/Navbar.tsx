@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0">
             <Link href="/">
-              <Image src="/sakhumzi-logo.png" alt="Sakhumzi Logo" width={120} height={53} className="hover-lift" />
+              <Image src="/logo.png" alt="Sakhumzi Logo" width={250} height={100} className="hover-lift" />
             </Link>
           </div>
           <div className="hidden md:block">
